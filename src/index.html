@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-bs-theme="light">
 
 <head>
   <meta charset="utf-8">
@@ -9,9 +9,18 @@
 </head>
 
 <body>
-  <section>
+  <section class="border">
     <div class="containter-fluid">
-      <nav class="navbar navbar-expand-lg">
+      <nav class="mainNav fixed-top shadowSm backdrop-blur">
+        <h1><a href="">陳怡彣作品集</a></h1>
+        <ul class="d-flex">
+          <li><a href="">resume</a></li>
+          <li><a href="">skill</a></li>
+          <li><a href="">project</a></li>
+          <li><a href="">contact</a></li>
+        </ul>
+      </nav>
+      <!-- <nav class="navbar navbar-expand-lg fixed-top shadowSm backdrop-blur">
         <div class="container-fluid justify-content-between">
           <a class="navbar-brand" href="#">Claire Portfolio</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -24,22 +33,27 @@
                 <a class="nav-link active" aria-current="page" href="#">resume</a>
               </li>
               <li class="nav-item">
+                <a class="nav-link" href="#">skill</a>
+              </li>
+              <li class="nav-item">
                 <a class="nav-link" href="#">project</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">eee</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                <a class="nav-link" href="#">contact</a>
               </li>
             </ul>
           </div>
         </div>
-      </nav>
+      </nav> -->
     </div>
     <!-- filterBlurMd -->
-    <div class="circle wh300px bg2colorA filterBlurMd"></div>
+    <div class="circle wh300px bgPrimarytoInfo45deg filterBlurMd"></div>
     <div class="circle wh200px bg2colorB filterBlurMd"></div>
+  </section>
+  <section style="height:1000px">
+    <h2>你好，我是陳怡彣。</h2>
+    <h3>擁有網頁設計十年經歷，喜愛專精於網頁細節美感的呈現。</h3>
+    <h3>常用的技能有Bootstrap、Html、SCSS，目前練習一些前端串接api技巧。</h3>
   </section>
 
   <div class="container py-4 px-3 mx-auto">
@@ -48,6 +62,7 @@
     <button class="btn btn-primary">Primary button</button>
     <a href="" class="btn btn-info">12345</a>
   </div>
+  <footer class="bgPrimarytoInfoLeft text-end">claire1212@gmail.com</footer>
   <script type="module" src="./js/main.js"></script>
 </body>
 

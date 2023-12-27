@@ -1,0 +1,12 @@
+//測試明暗模式
+// 客製化主導覽 
+@media (prefers-color-scheme: dark) {
+
+.mainNav{
+    display: flex;
+    a{
+        color:$gray-800;
+    }
+
+}
+}
