@@ -1,0 +1,154 @@
+// font
+.engFont {
+    font-family: 'Karla', sans-serif;
+}
+
+// font size ========
+.font-size {
+    &-sm {
+        font-size: $font-size-sm; //14px
+    }
+
+    &-md {
+        font-size: $font-size-base; //16px
+    }
+
+    &-lg {
+        font-size: $font-size-lg; //20px
+    }
+}
+
+.displayTitle {
+    font-size: 2rem;
+    color: $primary;
+    text-align: center;
+    font-weight: 400;
+    margin: 30px 0;
+}
+
+// font color
+.textGradientInfo {
+    background: -webkit-linear-gradient(0deg, $yellow, $orange 30%, $pink 45%, $brightPurple 70%, $brightBlue 85%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text-gray-500 {
+    color: $gray-500;
+}
+
+// width & height setting ========
+.h-50px {
+    height: 50px;
+}
+
+.h100vh {
+    height: 100vh;
+}
+
+.w100vw {
+    width: 100vw;
+}
+
+// top left right bottom position 
+.top-20 {
+    top: 20%;
+}
+
+.top-30 {
+    top: 30%;
+}
+
+.start-10 {
+    left: 10%;
+}
+
+.start-20neg {
+    left: -20%;
+}
+
+// custom space
+.pt-56px {
+    padding-top: 56px;
+}
+
+// background
+.bgPrimarytoInfoLeft {
+    background-image: linear-gradient(to right, $primary , $info);
+}
+
+.bgPrimarytoInfoLeftRev {
+    background-image: linear-gradient(to left, $primary , $info);
+}
+
+.bgPrimarytoInfo45 {
+    background-image: linear-gradient(45deg, $primary 50%, $purple 50%);
+}
+
+.bgPrimarytoInfo45neg {
+    background-image: linear-gradient(-45deg, $primary 50%, $purple 50%);
+}
+
+.bg2colorB {
+    background-image: linear-gradient(45deg, $red 50%, $purple 50%);
+}
+
+.bgPot {
+    background-color: $primary;
+    opacity: 0.8;
+    background-image: radial-gradient($gray-700 0.8500000000000001px, $primary 0.8500000000000001px);
+    background-size: 17px 17px;
+}
+
+// sharp
+.circleSm {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.circleMd {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.circleLg {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+}
+
+.circleXl {
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+}
+
+// 模糊濾鏡
+.filterBlurSm {
+    filter: blur(30px);
+}
+
+.filterBlurMd {
+    filter: blur(60px);
+}
+
+//   毛玻璃濾鏡
+.backdrop-blur {
+    backdrop-filter: blur(5px);
+}
+
+//   shadow
+.shadowSm {
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+}
+
+// z-index
+.zIndex1000 {
+    z-index: 1000;
+}
+
+.border-radius-half {
+    border-radius: 5rem;
+}
