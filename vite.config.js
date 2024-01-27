@@ -2,7 +2,7 @@ const path = require('path')
 
 export default {
   root: path.resolve(__dirname, 'src'),
-  base: '/yxwchen/', // 將 repository-name 換成你的 GitHub 倉庫名稱
+  base: '/portfolio2024/', // 將 repository-name 換成你的 GitHub 倉庫名稱
   build: {
     outDir: '../dist',
     assetsInlineLimit: 0,
