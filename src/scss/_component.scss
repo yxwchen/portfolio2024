@@ -30,7 +30,8 @@
     order: 1;
     width: 400px;
     height: 400px;
-    animation: photo_blob_animate 8s ease-in-out infinite 1s;
+    border-radius: 50%;
+    animation: photo_blob_animate 8s ease-in-out infinite;
 
     @include device-xl {
         width: 300px;
@@ -117,4 +118,10 @@ ul.timeline>li:before {
         padding-left: 8px;
         color: $gray-500;
     }
+}
+
+// 地圖元件樣式
+#map {
+    width: 80%;
+    height: 50vh;
 }

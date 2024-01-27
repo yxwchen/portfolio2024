@@ -8,6 +8,9 @@
   <link rel="stylesheet" href="./scss/all.scss">
   <!-- ico -->
   <link rel="shortcut icon" type="image/x-icon" href="./images/favicon.ico" />
+  <!-- leaflet css -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
 </head>
 
 <body>
@@ -67,7 +70,6 @@
   <!-- three Section -->
   <section class="position-relative  w100vw h100vh bg-light sectionScroll">
     <div class="container py-4 px-3 mx-auto">
-
       <h1>作品牆瀑布</h1>
       <button class="btn btn-primary">Primary button</button>
       <a href="" class="btn btn-info">12345</a>
@@ -75,6 +77,15 @@
 
   </section>
   <!-- /.three Section -->
+  <!-- four Section -->
+  <section
+    class="position-relative  w100vw h100vh bg-light sectionScroll d-flex justify-content-center align-items-center">
+    <div class="container py-4 px-3 mx-auto">
+      <h2>期望的工作區域</h2>
+      <div id="map"></div>
+    </div>
+  </section>
+  <!-- /.four Section -->
   <footer class="bgPrimarytoInfoLeft d-flex justify-content-between align-items-center fixed-bottom py-1 px-2">
     <div class="d-flex">
       <!-- <img src="./images/fb.svg" clsss="" alt="fb logo"> -->
@@ -85,7 +96,12 @@
     <div class="text-end font-size-sm">claire1212@gmail.com</div>
   </footer>
   <!-- JS -->
-  <script type="module" src="./js/main.js"></script>
+  <script type="module" src="./dist/main.js"></script>
+  <!-- leaflet js -->
+  <!-- Make sure you put this AFTER Leaflet's CSS -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <script src="./dist/map.js"></script>
 </body>
 
 </html>
